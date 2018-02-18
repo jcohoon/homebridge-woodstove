@@ -1,5 +1,4 @@
-// Homebridge plugin to reading Woodstove Sensor on a Raspberry PI.  Assumes Woodstove
-// is connected to GPIO 4 by default.
+// Homebridge plugin to reading Woodstove Sensor on a Raspberry PI.
 
 
 var Service, Characteristic;
