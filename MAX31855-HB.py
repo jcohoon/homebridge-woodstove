@@ -20,6 +20,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
+# Modified from 
+# github.com/adafruit/Adafruit_Python_MAX31855/blob/master/examples/simpletest.py
+# by JJ Cohoon to remove functionality unnecessary for this project.
+
 # Can enable debug output by uncommenting:
 #import logging
 #logging.basicConfig(level=logging.DEBUG)
