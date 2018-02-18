@@ -1,0 +1,37 @@
+{
+  "name": "homebridge-woodstove",
+  "version": "0.1.1",
+  "description": "Homebridge accessory plugin that support's connecting a MAX31855 Temperature Sensor and Thermocouple to a Raspberry PI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthernMan54/homebridge-dht.git"
+  },
+  "keywords": [
+    "nodemcu",
+    "woodstove",
+    "thermocouple",
+    "MAX31855",
+    "homebridge",
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.9",
+    "fakegato-history": "^0.4.0",
+    "mcuiot-logger": "0.0.6",
+    "moment": "^2.20.1"
+  },
+  "author": "NorthernMan54, jcohoon",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NorthernMan54/homebridge-dht/issues"
+  },
+  "homepage": "https://github.com/NorthernMan54/homebridge-dht#readme"
+}

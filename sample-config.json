@@ -1,0 +1,18 @@
+{
+    "bridge": {
+        "name": "HomebridgePI",
+        "username": "CD:22:3D:E3:CE:33",
+        "port": 51826,
+        "pin": "031-45-169"
+    },
+
+    "description": "The Onion!",
+
+    "accessories": [
+    {
+      "accessory": "Woodstove",
+      "name": "Woodstove Thermometer",
+      "service": "homebridge-woodstove",
+      "woodstoveExec": "python",
+    }]
+}
